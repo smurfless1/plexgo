@@ -272,23 +272,30 @@ type GetSearchResultsMetadata struct {
 	LibrarySectionUUID    *string                    `json:"librarySectionUUID,omitempty"`
 	Personal              *bool                      `json:"personal,omitempty"`
 	SourceTitle           *string                    `json:"sourceTitle,omitempty"`
-	RatingKey             *float64                   `json:"ratingKey,omitempty"`
+	ParentRatingKey       *string                    `json:"parentRatingKey,omitempty"`
+	RatingKey             *string                    `json:"ratingKey,omitempty"`
 	Key                   *string                    `json:"key,omitempty"`
+	ParentKey             *string                    `json:"parentKey,omitempty"`
+	ParentGUID            *string                    `json:"parentGuid,omitempty"`
 	GUID                  *string                    `json:"guid,omitempty"`
 	Studio                *string                    `json:"studio,omitempty"`
 	Type                  *string                    `json:"type,omitempty"`
 	Title                 *string                    `json:"title,omitempty"`
+	ParentTitle           *string                    `json:"parentTitle,omitempty"`
 	ContentRating         *string                    `json:"contentRating,omitempty"`
 	Summary               *string                    `json:"summary,omitempty"`
+	Index                 *float64                   `json:"index,omitempty"`
 	Rating                *float64                   `json:"rating,omitempty"`
 	AudienceRating        *float64                   `json:"audienceRating,omitempty"`
 	Year                  *float64                   `json:"year,omitempty"`
 	Tagline               *string                    `json:"tagline,omitempty"`
 	Thumb                 *string                    `json:"thumb,omitempty"`
 	Art                   *string                    `json:"art,omitempty"`
+	ParentThumb           *string                    `json:"parentThumb,omitempty"`
 	Duration              *float64                   `json:"duration,omitempty"`
 	OriginallyAvailableAt *time.Time                 `json:"originallyAvailableAt,omitempty"`
 	AddedAt               *float64                   `json:"addedAt,omitempty"`
+	LastViewedAt          *float64                   `json:"lastViewedAt,omitempty"`
 	UpdatedAt             *float64                   `json:"updatedAt,omitempty"`
 	AudienceRatingImage   *string                    `json:"audienceRatingImage,omitempty"`
 	ChapterSource         *string                    `json:"chapterSource,omitempty"`
