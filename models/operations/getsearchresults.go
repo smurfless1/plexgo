@@ -362,7 +362,7 @@ func (o *GetSearchResultsMetadata) GetSourceTitle() *string {
 	return o.SourceTitle
 }
 
-func (o *GetSearchResultsMetadata) GetRatingKey() *float64 {
+func (o *GetSearchResultsMetadata) GetRatingKey() *string {
 	if o == nil {
 		return nil
 	}
