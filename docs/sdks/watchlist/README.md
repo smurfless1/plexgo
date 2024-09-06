@@ -20,8 +20,8 @@ Get User Watchlist
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )

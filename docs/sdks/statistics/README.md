@@ -22,7 +22,7 @@ This will return the media statistics for the server
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -70,7 +70,7 @@ This will return the resources for the server
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -118,7 +118,7 @@ This will return the bandwidth statistics for the server
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )

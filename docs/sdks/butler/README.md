@@ -24,7 +24,7 @@ Returns a list of butler tasks
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -76,7 +76,7 @@ This endpoint will attempt to start all Butler tasks that are enabled in the set
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -124,7 +124,7 @@ This endpoint will stop all currently running tasks and remove any scheduled tas
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -176,8 +176,8 @@ This endpoint will attempt to start a single Butler task that is enabled in the 
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )
@@ -226,8 +226,8 @@ This endpoint will stop a currently running task by name, or remove it from the 
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )

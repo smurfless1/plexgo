@@ -27,7 +27,7 @@ Get Server Capabilities
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -74,7 +74,7 @@ Get Server Preferences
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -121,7 +121,7 @@ Get Available Clients
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -168,7 +168,7 @@ Get Devices
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -215,7 +215,7 @@ Get Server Identity
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -262,7 +262,7 @@ Returns MyPlex Account Information
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -310,8 +310,8 @@ Plex's Photo transcoder is used throughout the service to serve images at specif
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )
@@ -367,7 +367,7 @@ Get Server List
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )

@@ -22,8 +22,8 @@ This endpoint provides the caller with a temporary token with the same access le
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )
@@ -76,7 +76,7 @@ Note: requires Plex Media Server >= 1.15.4.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )

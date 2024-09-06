@@ -34,7 +34,7 @@ This request is intended to be very fast, and called as the user types.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -92,7 +92,7 @@ Results, as well as their containing per-type hubs, contain a `distance` attribu
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -146,7 +146,7 @@ This will search the database for the string provided.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )

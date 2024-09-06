@@ -22,7 +22,7 @@ Retrieves the home data for the authenticated user, including details like home 
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -69,7 +69,7 @@ Retrieve a Pin from Plex.tv for authentication flows
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -123,7 +123,7 @@ Retrieve an Access Token from Plex.tv after the Pin has already been authenticat
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )

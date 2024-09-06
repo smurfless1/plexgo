@@ -23,7 +23,7 @@ This will retrieve the "Now Playing" Information of the PMS.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -70,8 +70,8 @@ This will Retrieve a listing of all history views.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )
@@ -128,7 +128,7 @@ Get Transcode Sessions
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -175,7 +175,7 @@ Stop a Transcode Session
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )

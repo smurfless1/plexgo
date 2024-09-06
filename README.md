@@ -1,4 +1,4 @@
-# github.com/LukeHagar/plexgo
+# github.com/smurfless1/plexgo
 
 <div align="left">
     <a href="https://speakeasyapi.dev/"><img src="https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" /></a>
@@ -11,7 +11,7 @@
 ## SDK Installation
 
 ```bash
-go get github.com/LukeHagar/plexgo
+go get github.com/smurfless1/plexgo
 ```
 <!-- End SDK Installation [installation] -->
 
@@ -25,7 +25,7 @@ package main
 
 import (
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"log"
 )
 
@@ -183,8 +183,8 @@ package main
 import (
 	"context"
 	"errors"
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/sdkerrors"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/sdkerrors"
 	"log"
 )
 
@@ -233,7 +233,7 @@ package main
 
 import (
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"log"
 )
 
@@ -271,7 +271,7 @@ package main
 
 import (
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"log"
 )
 
@@ -302,8 +302,8 @@ package main
 
 import (
 	"context"
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"log"
 )
 
@@ -375,7 +375,7 @@ package main
 
 import (
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"log"
 )
 
@@ -451,7 +451,7 @@ package main
 
 import (
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"log"
 )
 

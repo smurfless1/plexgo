@@ -34,8 +34,8 @@ Create a new playlist. By default the playlist is blank. To create a playlist al
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )
@@ -88,8 +88,8 @@ Get All Playlists given the specified filters.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )
@@ -142,7 +142,7 @@ Smart playlist details contain the `content` attribute. This is the content URI 
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -191,7 +191,7 @@ This endpoint will delete a playlist
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -240,7 +240,7 @@ From PMS version 1.9.1 clients can also edit playlist metadata using this endpoi
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -298,7 +298,7 @@ Note that for dumb playlists, items have a `playlistItemID` attribute which is u
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -350,7 +350,7 @@ Clears a playlist, only works with dumb playlists. Returns the playlist.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -400,7 +400,7 @@ With a smart playlist, passing a new `uri` parameter replaces the rules for the 
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -455,8 +455,8 @@ Imports m3u playlists by passing a path on the server to scan for m3u-formatted 
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )

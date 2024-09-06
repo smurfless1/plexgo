@@ -4,7 +4,7 @@ package operations
 
 import (
 	"errors"
-	"github.com/LukeHagar/plexgo/internal/utils"
+	"github.com/smurfless1/plexgo/internal/utils"
 )
 
 var ErrUnsupportedOption = errors.New("unsupported option")

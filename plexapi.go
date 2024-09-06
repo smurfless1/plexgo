@@ -6,10 +6,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/LukeHagar/plexgo/internal/globals"
-	"github.com/LukeHagar/plexgo/internal/hooks"
-	"github.com/LukeHagar/plexgo/internal/utils"
-	"github.com/LukeHagar/plexgo/models/components"
+	"github.com/smurfless1/plexgo/internal/globals"
+	"github.com/smurfless1/plexgo/internal/hooks"
+	"github.com/smurfless1/plexgo/internal/utils"
+	"github.com/smurfless1/plexgo/models/components"
 	"net/http"
 	"time"
 )
@@ -273,7 +273,7 @@ func New(opts ...SDKOption) *PlexAPI {
 			OpenAPIDocVersion: "0.0.3",
 			SDKVersion:        "0.10.1",
 			GenVersion:        "2.356.0",
-			UserAgent:         "speakeasy-sdk/go 0.10.1 2.356.0 0.0.3 github.com/LukeHagar/plexgo",
+			UserAgent:         "speakeasy-sdk/go 0.10.1 2.356.0 0.0.3 github.com/smurfless1/plexgo",
 			Globals:           globals.Globals{},
 			ServerDefaults: []map[string]string{
 				{

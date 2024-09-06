@@ -22,7 +22,7 @@ This will mark the provided media key as Played.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -70,7 +70,7 @@ This will mark the provided media key as Unplayed.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -119,7 +119,7 @@ This API command can be used to update the play progress of a media item.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )

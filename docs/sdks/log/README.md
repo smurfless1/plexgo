@@ -23,8 +23,8 @@ This endpoint will write a single-line log message, including a level and source
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/smurfless1/plexgo"
+	"github.com/smurfless1/plexgo/models/operations"
 	"context"
 	"log"
 )
@@ -99,7 +99,7 @@ Ensure each parameter is properly URL-encoded to avoid interpretation issues.
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
@@ -150,7 +150,7 @@ This endpoint will enable all Plex Media Serverlogs to be sent to the Papertrail
 package main
 
 import(
-	"github.com/LukeHagar/plexgo"
+	"github.com/smurfless1/plexgo"
 	"context"
 	"log"
 )
