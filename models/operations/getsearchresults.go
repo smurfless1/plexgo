@@ -5,7 +5,6 @@ package operations
 import (
 	"github.com/smurfless1/plexgo/internal/utils"
 	"net/http"
-	"time"
 )
 
 type GetSearchResultsRequest struct {
@@ -293,7 +292,7 @@ type GetSearchResultsMetadata struct {
 	Art                   *string                    `json:"art,omitempty"`
 	ParentThumb           *string                    `json:"parentThumb,omitempty"`
 	Duration              *float64                   `json:"duration,omitempty"`
-	OriginallyAvailableAt *time.Time                 `json:"originallyAvailableAt,omitempty"`
+	OriginallyAvailableAt *string                    `json:"originallyAvailableAt,omitempty"`
 	AddedAt               *float64                   `json:"addedAt,omitempty"`
 	LastViewedAt          *float64                   `json:"lastViewedAt,omitempty"`
 	UpdatedAt             *float64                   `json:"updatedAt,omitempty"`
@@ -467,7 +466,7 @@ func (o *GetSearchResultsMetadata) GetDuration() *float64 {
 	return o.Duration
 }
 
-func (o *GetSearchResultsMetadata) GetOriginallyAvailableAt() *time.Time {
+func (o *GetSearchResultsMetadata) GetOriginallyAvailableAt() *string {
 	if o == nil {
 		return nil
 	}
